@@ -18,12 +18,12 @@ public class AVeryBigSum {
 	
 	public static long aVeryBigSum(List<Long> ar) {
 	    // Write your code here
-		long aux = 0;
+		long resultado = 0;
 		for (int i = 0; i < ar.size(); i++) {
-			aux+= ar.get(i);
+			resultado+= ar.get(i);
 		}
 		
-		return aux;
+		return resultado;
 	    }
 
 	/**
